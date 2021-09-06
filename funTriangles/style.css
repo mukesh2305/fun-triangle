@@ -1,0 +1,135 @@
+/* background: linear-gradient(to bottom, #33ccff 0%, #9966ff 100%); */
+/* background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%); */
+:root {
+  --primary-color: whitesmoke;
+}
+
+/* nav */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* margin-bottom: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%);
+}
+.header-h1 {
+  padding-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+nav {
+  padding-top: 2rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  color: darkorange;
+}
+
+/* nav */
+h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.quiz-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: whitesmoke; */
+  /* background: linear-gradient(to bottom, #33ccff 0%, #9966ff 100%); */
+  /*  */
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: crimson;
+}
+
+.p-second {
+  padding-right: 17.5rem;
+}
+
+.question {
+  padding-bottom: 2rem;
+}
+label {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-right: 40rem;
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+}
+
+button:hover {
+  background-color: deeppink;
+}
+#output {
+  text-align: center;
+  padding-right: 41rem;
+  padding-top: 1rem;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8rem;
+  background: linear-gradient(to bottom, #33ccff 0%, #0000cc 100%);
+}
+
+.footer-list {
+  display: flex;
+  padding-right: 3rem;
+}
+li {
+  list-style: none;
+  padding-left: 1rem;
+}
+img {
+  background: #fff;
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+img:hover {
+  background-color: darkslategray;
+}
+.footer-p {
+  /* color: #fff; */
+  color: whitesmoke;
+  font-weight: bolc;
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}

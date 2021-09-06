@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triangle Quiz</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <h1 class="header-h1">fun with triangles</h1>
+    <nav>
+      <a class="nav-link" href="./Triangle/isTrangle.html">Is Triangle?</a>
+      <a class="nav-link" href="./index.html">Quiz</a>
+      <a class="nav-link" href="./Triangle/Hypotenuse.html">Hypotenuse</a>
+      <a class="nav-link" href="./Triangle/areaOfTriangle.html">Aea of Triangle</a>
+    </nav>
+  </header>
+  <!-- end of header -->
+
+  <h1>Triangle Quiz</h1>
+  <form class="quiz-form">
+    <div class="question-container">
+      <div class="question">
+        <p>
+          What is the third angle for the triangle where angle = 45 deg and
+          angle2 = 45deg ?
+        </p>
+        <label>
+          <input type="radio" name="question1" value="45deg" />
+          45deg
+        </label>
+        <label>
+          <input type="radio" name="question1" value="60deg" />
+          60deg
+        </label>
+        <label>
+          <input type="radio" name="question1" value="90deg" />
+          90deg
+        </label>
+      </div>
+    </div>
+
+    <div class="question-container">
+      <div class="question">
+        <p class="p-second">
+          If a triangle has angle of 90 degrees what is it called?
+        </p>
+        <label>
+          <input type="radio" name="question2" value="acute" />
+          acute
+        </label>
+        <label>
+          <input type="radio" name="question2" value="abtuse" />
+          abtuse
+        </label>
+        <label>
+          <input type="radio" name="question2" value="right angled" />
+          right angled
+        </label>
+      </div>
+    </div>
+  </form>
+  <div class="button">
+    <button id="submit-answer-btn">Submit Answers</button>
+  </div>
+  <div id="output"></div>
+
+  <footer>
+    <p class="footer-p">Mukesh Purohit</p>
+    <ul class="footer-list">
+      <li>
+        <a class="links" href="https://github.com/mukesh2305" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="github" width="40px" />
+        </a>
+      </li>
+      <li>
+        <a class="links" href="https://discord.com/channels/@me" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/3800/3800060.png" alt="discord" width="40px" />
+        </a>
+      </li>
+      <li>
+        <a class="links" href="https://twitter.com/Mukesh_React" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111819.png" width="40px" alt="twitter" />
+        </a>
+      </li>
+      <li>
+        <a class="links" href="https://www.instagram.com/mukksh_web" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="instagram" width="40px" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
